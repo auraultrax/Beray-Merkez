@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b22cf"/>
+      <stop offset="0.55" stop-color="#7b48ed"/>
+      <stop offset="1" stop-color="#b87bfa"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e5dcff"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="url(#bg)"/>
+  <circle cx="410" cy="105" r="60" fill="#fff" opacity=".10"/>
+  <circle cx="106" cy="417" r="76" fill="#fff" opacity=".08"/>
+
+  <!-- açık kitap / hikâye simgesi -->
+  <path d="M256 188c-52-31-110-31-158-5v176c50-25 106-24 158 7z" fill="url(#cover)"/>
+  <path d="M256 188c52-31 110-31 158-5v176c-50-25-106-24-158 7z" fill="#f6f2ff"/>
+  <path d="M256 188v178" stroke="#9d85df" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- sayfa çizgileri -->
+  <g fill="none" stroke="#b6a5ea" stroke-width="9" stroke-linecap="round">
+    <path d="M132 238c34-12 70-9 102 8"/>
+    <path d="M132 274c34-12 70-9 102 8"/>
+    <path d="M132 310c34-12 70-9 102 8"/>
+    <path d="M380 238c-34-12-70-9-102 8"/>
+    <path d="M380 274c-34-12-70-9-102 8"/>
+    <path d="M380 310c-34-12-70-9-102 8"/>
+  </g>
+
+  <!-- hikâye yıldızları -->
+  <g fill="#fff">
+    <path d="M393 105l8 23 23 8-23 8-8 23-8-23-23-8 23-8z"/>
+    <path d="M106 125l6 17 17 6-17 6-6 17-6-17-17-6 17-6z" opacity=".85"/>
+  </g>
+
+  <!-- B rozeti -->
+  <circle cx="399" cy="399" r="42" fill="#5c30d5" stroke="#fff" stroke-opacity=".55" stroke-width="4"/>
+  <text x="399" y="413" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="900" fill="#fff">B</text>
+</svg>
