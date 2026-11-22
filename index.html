@@ -103,12 +103,7 @@ button{font:inherit}
 .platform.os .cta{background:linear-gradient(135deg,#3450d6,#6d8bf7)}
 .platform.forever{background:linear-gradient(180deg,#fff,#f4f0ff)}
   /* --- AURA X KAPALI --- */
-  .platform.aura.closed{filter:grayscale(1);opacity:.92;cursor:not-allowed;pointer-events:none}
-  .platform.aura.closed .app-icon{position:relative}
-  .platform.aura.closed .app-icon:after{content:"✕";position:absolute;inset:0;display:grid;place-items:center;font-size:64px;font-weight:900;color:#e11d48;line-height:1;text-shadow:0 2px 10px rgba(255,255,255,.9)}
-  .closed-overlay{position:absolute;inset:0;z-index:5;display:grid;place-items:center;pointer-events:none;background:rgba(255,255,255,.18)}
-  .closed-overlay span{font-size:170px;font-weight:900;line-height:1;color:#e11d48;text-shadow:0 0 0 #fff,0 4px 0 #fff,0 -4px 0 #fff,4px 0 0 #fff,-4px 0 0 #fff,0 10px 28px rgba(225,29,72,.45);transform:rotate(-4deg)}
-  .closed-badge{position:absolute;top:16px;left:16px;z-index:6;background:#e11d48;color:#fff;font-size:11px;font-weight:900;letter-spacing:.08em;padding:7px 10px;border-radius:999px;box-shadow:0 8px 20px rgba(225,29,72,.35)}
+  .platform.aura.closed{filter:grayscale(1);opacity:.75;cursor:not-allowed;pointer-events:none;background:linear-gradient(180deg,#f3f3f3,#ececec)}
   .closed-banner{margin-top:16px;background:#fef2f2;border:1px solid #fecaca;color:#b91c1c;border-radius:14px;padding:12px 12px;text-align:center;font-size:13px;font-weight:900;line-height:1.5}
   .platform.aura.closed .cta{background:#9ca3af!important;box-shadow:none;color:#fff}
 .platform.forever .cta{background:linear-gradient(135deg,#6d28d9,#db2777)}
@@ -162,8 +157,6 @@ button{font:inherit}
 
     <div class="platform-grid">
       <div class="platform aura closed" aria-disabled="true">
-        <div class="closed-badge">⛔ KAPATILDI</div>
-        <div class="closed-overlay" aria-hidden="true"><span>✕</span></div>
         <div class="platform-top">
           <div class="app-icon"><img src="./icons/beray-aurax-512.png" alt="Beray Aura X ikonu"></div>
           <div class="external">↗</div>
@@ -256,3 +249,4 @@ if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.ser
 </script>
 </body>
 </html>
+
